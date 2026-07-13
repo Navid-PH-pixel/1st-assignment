@@ -31,7 +31,7 @@ button:hover{
     background-color: #1E40AF;
 }
 header{
-    background-image: url('./assets/banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,6 +81,8 @@ main section h1{
     color: #2563EB;
     padding-left: 10px;
     padding-top: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
 .speaker1 .hello{
     size: 14px;
@@ -94,6 +96,7 @@ main section h1{
     padding-top: 10px;
     color: #4B5563;
     padding-bottom: 25px;
+    font-family: 'Inter', sans-serif;
 }
 .speaker2{
     display:grid;
@@ -107,6 +110,8 @@ main section h1{
     color: #2563EB;
     padding-left: 10px;
     padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 .speaker2 .hello{
     size: 14px;
@@ -120,6 +125,7 @@ main section h1{
     padding-top: 10px;
     color: #4B5563;
     padding-bottom: 25px;
+    font-family: 'Inter', sans-serif;
 }
 .speaker3{
     display:grid;
@@ -133,6 +139,8 @@ main section h1{
     color: #2563EB;
     padding-left: 10px;
     padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 .speaker3 .hello{
     size: 14px;
@@ -146,6 +154,7 @@ main section h1{
     padding-top: 10px;
     color: #4B5563;
     padding-bottom: 25px;
+    font-family: 'Inter', sans-serif;
 }
 .speaker4{
     display:grid;
@@ -159,6 +168,8 @@ main section h1{
     color: #2563EB;
     padding-left: 10px;
     padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 .speaker4 .hello{
     size: 14px;
@@ -172,6 +183,7 @@ main section h1{
     padding-top: 10px;
     color: #4B5563;
     padding-bottom: 25px;
+    font-family: 'Inter', sans-serif;
 }
 .schedule{
     text-align: center;
@@ -181,6 +193,10 @@ main section h1{
     padding-top: 200px;
     font-family: 'Inter', sans-serif;
     font-size: 50px;
+}
+.schedule p{
+    font-family: 'Inter', sans-serif;
+    color: #4B5563;;
 }
 .price{
     display: grid;
@@ -198,6 +214,7 @@ main section h1{
     padding: 24px;
     text-align: left;
     padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
     
 }
 .card ul{
@@ -380,4 +397,7 @@ main section h1{
 
 .highlight-bottom a:hover{
     background:#1d4ed8;
+}
+.card ul li::marker{
+    color: #2563EB;
 }
